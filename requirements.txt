@@ -1,0 +1,17 @@
+# 核心依赖
+pycryptodome>=3.19.0
+frida>=16.2.0
+unicorn>=2.0.1
+capstone>=5.0.1
+keystone-engine>=0.9.2
+requests>=2.31.0
+
+# 可选：增强签名分析
+cryptography>=41.0.0
+asn1crypto>=1.5.1
+
+# 可选：Radare2 绑定
+r2pipe>=1.8.0
+
+# 可选：Android 工具（需单独安装 SDK 或系统自带）
+# aapt / apktool / adb 不通过 pip 安装
